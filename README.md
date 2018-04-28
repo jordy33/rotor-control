@@ -8,8 +8,11 @@ Help
 ```
 ./rotor-control --help
 ```
-
-Move to 89W
+GOTO X
+```
+./rotor-control -m2 -n 18
+```
+GOTOx and tune 
 ```
 ./rotor-control -T 3860,H,30000,56,s2,8psk,35 -m2 -n 19
 ```
